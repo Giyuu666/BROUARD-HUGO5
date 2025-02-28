@@ -1,0 +1,76 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fond et police */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #222;
+}
+
+/* Titres de section */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* Paragraphes et citations */
+p {
+    margin: 10px 0;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #0056b3;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+/* Liens */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
